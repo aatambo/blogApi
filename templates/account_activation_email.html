@@ -1,0 +1,15 @@
+{% autoescape off %}
+
+You're receiving this email because user {{user.username}} has given your email address to register an account on {{domain}}.
+
+To confirm this is correct, go to http://{{ domain }}{% url 'users:activate' uidb64=uid token=token %}.
+
+Note that you won't be able to login without confirming your email.
+
+If the link has expired, the account will be deleted upon clicking on the link. You'll need to register again.
+
+Link expires after 3 days.
+
+Thank you.
+
+{% endautoescape %}

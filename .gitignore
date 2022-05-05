@@ -1,0 +1,8 @@
+*.pyc
+__pycache__/
+media/*
+db.sqlite3
+.cache/
+.coverage
+.coverage*
+.env
