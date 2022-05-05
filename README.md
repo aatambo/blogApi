@@ -2,7 +2,9 @@
 
 ## Introduction
 
-Api powered by Django and Django Rest Framework.Handles Posts and Comments CRUD operations.Authentication and authorzation via  Django Oath Toolkit.[Check it out here](https://adrianopc.pythonanywhere.com/swagger/).
+Api powered by Django and Django Rest Framework.Handles Posts and Comments CRUD operations.Authentication and authorzation via  Django Oath Toolkit.
+
+[Check it out here](https://adrianopc.pythonanywhere.com/swagger/).
 
 ## Inspiration
 
